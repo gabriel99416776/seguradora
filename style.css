@@ -1,0 +1,70 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.carousel-caption a {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: rgba(0, 123, 255, 0.8); /* azul semitransparente */
+  color: #fff;
+  text-decoration: none;
+  border-radius: 5px;
+  transition: all 0.3s ease;
+  font-weight: bold;
+}
+
+.carousel-caption a:hover {
+  background-color: #fff;
+  color: #007bff;
+  transform: scale(1.1); /* aumenta um pouco */
+  box-shadow: 0 4px 15px rgba(0,0,0,0.3);
+}
+
+.navbar img {
+  width: 240px;
+  height: 70px;
+}
+
+.card {
+  margin-bottom: 20px !important;
+
+}
+.card:hover {
+  box-shadow: 0 4px 8px #00000033;
+  transition: 0.3s;
+}
+.carousel {
+  width: 100%;
+  margin: 40px auto;
+}
+.carousel-item {
+  height: 300px; /* altura que você quer */
+}
+.cards span {
+  color: #414141;
+}
+.row {
+  margin-top: 5px !important;
+}
+.carousel-item img {
+  height: 100%; /* ocupa toda a altura do item */
+  object-fit: cover; /* corta a imagem sem distorcer */
+}
+.carousel-control-prev .carousel-control-prev-icon {
+  background-color: #535353;
+  border-radius: 50%;
+  padding: 20px;
+}
+
+.cards .linha {
+  border: 2px solid #02376d;
+  margin-bottom: 20px;
+  width: 30%;
+  border-radius: 5px;
+}
+
+.card-img-top {
+  height: 200px; /* altura fixa, ajuste como desejar */
+  object-fit: cover; /* mantém proporção e preenche a área */
+}
